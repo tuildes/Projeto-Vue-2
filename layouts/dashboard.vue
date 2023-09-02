@@ -40,14 +40,14 @@ export default {
 
     items: [
       {
-        icon: 'mdi-image-check',
+        icon: 'mdi-image-search',
         text: 'Galeria',
-        link: '/dashboard/galeria',
+        link: '/dashboard/gallery',
       },
       {
-        icon: 'mdi-account-check',
+        icon: 'mdi-account-search',
         text: 'Testemunhos',
-        link: '/dashboard/testemunho',
+        link: '/dashboard/testimony',
       },
     ],
   }),

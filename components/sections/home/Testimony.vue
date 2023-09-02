@@ -7,7 +7,6 @@
       hide-delimiter-background
       delimiter-icon="mdi-checkbox-blank-circle-outline"
       cycle
-      touch
       continuous
       :show-arrows="false"
       height="400px"
