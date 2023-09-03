@@ -1,22 +1,26 @@
 <template>
   <div>
     <!--Primeiro elemento fora o navbar-->
-    <v-img class="banner-image" :src="BannerImage" />
+    <!-- <v-img class="banner-image" :src="BannerImage" /> -->
+    <v-parallax
+      height="800"
+      alt="Parralax de folhas"
+      class="banner-image"
+      :src="BannerImage"
+    />
 
     <div class="banner-content d-flex justify-center align-center flex-column">
       <span class="banner-title">Eles queriam que eu vivesse</span>
       <span class="banner-subtitle">Imortal é ter que carregar isso</span>
       <div class="banner-btns d-flex flex-row">
-        <v-btn depressed color="#558B2F" class="banner-button"
-          >Get Started</v-btn
-        >
+        <v-btn depressed color="#558B2F" class="banner-button">Ouvir</v-btn>
         <v-btn
           depressed
           text
           color="white"
           outlined
           class="banner-button banner-button-border"
-          >Download</v-btn
+          >Buscar</v-btn
         >
       </div>
     </div>
@@ -42,7 +46,7 @@ export default {
   }
 
   .banner-image {
-    height: 600px;
+    height: 1000px !important;
   }
   .banner-title {
     font-size: 50px !important;
@@ -51,7 +55,7 @@ export default {
 
 @media (min-width: 601px) and (max-width: 1263px) {
   .banner-image {
-    height: 600px;
+    height: 1000px !important;
   }
   .banner-content {
     top: 10% !important;

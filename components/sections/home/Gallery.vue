@@ -19,7 +19,7 @@
     <!--Linha inferior, apenas imagens-->
     <v-row class="gallery-imageBox justify-center">
       <v-col
-        v-for="(img, index) in galleryImages"
+        v-for="(img, index) in galleryImgs"
         :key="index"
         cols="12"
         lg="4"
@@ -28,7 +28,7 @@
         class="d-flex justify-center"
       >
         <v-card class="gallery-card">
-          <v-img class="gallery-img" :src="img" />
+          <v-img class="gallery-img" :src="img.path" />
         </v-card>
       </v-col>
     </v-row>
@@ -37,14 +37,15 @@
 
 <script>
 export default {
+  props: {
+    galleryImgs: {
+      type: Array,
+      required: true,
+    },
+  },
+
   data() {
-    return {
-      galleryImages: [
-        'https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/06/06/Ghost-Spider-decks-Marvel-Snap.jpg',
-        'https://images.genius.com/e28852b5de97ab8cd608557a3d6c6d1e.1000x1000x1.jpg',
-        'https://images7.alphacoders.com/120/1202659.jpg',
-      ],
-    }
+    return {}
   },
 }
 </script>
@@ -75,6 +76,10 @@ export default {
   margin-bottom: 10px;
   line-height: 1.5;
   text-align: center;
+}
+
+.gallery-imageBox {
+  width: 70vw;
 }
 
 .gallery-card {

@@ -81,16 +81,6 @@
       ]
     },
     {
-      "name": "Paisagem de Cavalo",
-      "path": "https://static-cse.canva.com/blob/759754/IMAGE1.jpg",
-      "categorie": [
-        "Paisagem",
-        "Arte"
-      ],
-      "apiId": "@",
-      "id": 3
-    },
-    {
       "name": "Inferno do CS2",
       "path": "https://noticias.maisesports.com.br/wp-content/uploads/2023/06/cs-2-inferno-4.jpg",
       "categorie": [
@@ -101,23 +91,14 @@
       "id": 4
     },
     {
-      "name": "Alucard",
-      "path": "https://d17lbu6bbzbdc8.cloudfront.net/wp-content/uploads/2021/12/06092751/Castlevania-Symphony-of-the-Night.jpg",
+      "name": "Castlevania SOTN",
+      "path": "https://warpzone.me/wp-content/uploads/2019/01/conceptGraveyard.png",
       "categorie": [
         "Personagem",
         "Jogos Digitais"
       ],
       "apiId": "@",
       "id": 5
-    },
-    {
-      "name": "Zero - Yung Buda",
-      "path": "https://cdns-images.dzcdn.net/images/cover/8de8e23845b10a07a23c550ae37092b0/500x500.jpg",
-      "categorie": [
-        "Disco",
-        "Música"
-      ],
-      "id": 6
     }
   ],
   "categories": [

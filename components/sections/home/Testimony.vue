@@ -16,11 +16,9 @@
         <div
           class="testimony-carousel-item d-flex flex-column justify-center align-center"
         >
-          <img
-            class="testimony-carousel-image"
-            :alt="item.nome"
-            :src="item.image_url"
-          />
+          <v-avatar size="90">
+            <img :alt="item.nome" :src="item.image_url" />
+          </v-avatar>
 
           <div class="testimony-apresentation py-4">
             <span> {{ item.nome }}, via </span>
@@ -67,13 +65,6 @@ export default {
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
 }
-
-.testimony-carousel-image {
-  border-radius: 50%;
-  width: 90px;
-  height: 90px;
-}
-
 .testimony-apresentation {
   font-size: 12px;
   text-transform: uppercase;

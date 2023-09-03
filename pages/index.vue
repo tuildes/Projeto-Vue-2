@@ -2,8 +2,11 @@
   <v-container fluid class="pa-0 ma-0">
     <!--Fluid: usar todo o espaco do navegador-->
     <Banner />
-    <Gallery />
+    <v-divider />
+    <Gallery :galleryImgs="galleryRes" />
+    <v-divider />
     <Testimony :testimonies="testimonyRes" />
+    <v-divider />
   </v-container>
 </template>
 
@@ -19,10 +22,15 @@ export default {
     Testimony,
   },
 
-  asyncData(context) {
-    return context.app.$axios.get(`testimony`).then((res) => ({
-      testimonyRes: res.data,
-    }))
+  async asyncData({ $axios }) {
+    const [testimony, gallery] = await Promise.all([
+      $axios.get(`testimony`),
+      $axios.get(`gallery`),
+    ])
+    return {
+      testimonyRes: testimony.data,
+      galleryRes: gallery.data,
+    }
   },
 
   head() {
