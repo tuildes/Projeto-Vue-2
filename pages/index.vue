@@ -20,7 +20,7 @@ export default {
   },
 
   asyncData(context) {
-    return context.app.$axios.get(`./testimony`).then((res) => ({
+    return context.app.$axios.get(`testimony`).then((res) => ({
       testimonyRes: res.data,
     }))
   },

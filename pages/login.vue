@@ -1,5 +1,15 @@
 <template>
   <v-container fluid>
+    <v-snackbar
+      v-model="snackbar"
+      :timeout="tempo"
+      :color="snackbarColor"
+      fixed
+      class="mb-5"
+    >
+      <span>{{ texto }}</span>
+    </v-snackbar>
+
     <div class="coluna-usuario">
       <title-auth titulo="Login" />
       <input-auth v-model="email" placeholder="Email" />
@@ -31,10 +41,23 @@ export default {
     return {
       email: '',
       password: '',
+
+      // SnackBar Variáveis
+      snackbar: false,
+      tempo: null,
+      texto: null,
+      snackbarColor: null,
     }
   },
   computed: {},
   methods: {
+    loginError() {
+      this.snackbar = true
+      this.tempo = 2500
+      this.texto = 'Senha ou E-mail inválidos'
+      this.snackbarColor = 'error'
+    },
+
     async realizarLogin() {
       this.$nuxt.$loading.start()
       await this.$auth
@@ -48,7 +71,7 @@ export default {
           this.$router.push('/dashboard')
         })
         .catch(({ response }) => {
-          window.alert('Erro de login!\n\nSenha ou E-mail inválidos')
+          this.loginError()
           // const { mensagem, errosSecundarios: erros } = response.data
           // const listaErros = erros
           //   ? `\n ${Object.values(erros).join('\n')}`

@@ -66,12 +66,13 @@ export default {
    ** See https://axios.nuxtjs.org/options
    */
   axios: {
-    proxy: true,
-    prefix: '/api/',
+    baseURL: 'http://localhost:8000',
+    // proxy: true,
+    // prefix: '/api/',
   },
 
   proxy: {
-    '/api/': { target: 'http://127.0.0.1:8000' },
+    // '/api/': { target: 'http://localhost:8000/' },
   },
 
   auth: {
