@@ -50,6 +50,86 @@
       "image_url": "https://i1.sndcdn.com/avatars-000648566526-gwbcqw-t500x500.jpg"
     }
   ],
-
-  "galerry": [{}]
+  "gallery": [
+    {
+      "id": 0,
+      "apiId": "@",
+      "name": "Gwen Stacy",
+      "path": "https://editors.dexerto.com/wp-content/uploads/2023/06/06/Ghost-Spider-decks-Marvel-Snap.jpg",
+      "categorie": [
+        "Personagem",
+        "HQ"
+      ]
+    },
+    {
+      "name": "Álbum Pêndulo - Menestrel",
+      "path": "https://images.genius.com/e28852b5de97ab8cd608557a3d6c6d1e.1000x1000x1.jpg",
+      "categorie": [
+        "Música"
+      ],
+      "apiId": "@",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "apiId": "@",
+      "name": "Zeri",
+      "path": "https://images7.alphacoders.com/120/1202659.jpg",
+      "categorie": [
+        "Personagem",
+        "LOL"
+      ]
+    },
+    {
+      "name": "Paisagem de Cavalo",
+      "path": "https://static-cse.canva.com/blob/759754/IMAGE1.jpg",
+      "categorie": [
+        "Paisagem",
+        "Arte"
+      ],
+      "apiId": "@",
+      "id": 3
+    },
+    {
+      "name": "Inferno do CS2",
+      "path": "https://noticias.maisesports.com.br/wp-content/uploads/2023/06/cs-2-inferno-4.jpg",
+      "categorie": [
+        "Paisagem",
+        "Jogos Digitais"
+      ],
+      "apiId": "@",
+      "id": 4
+    },
+    {
+      "name": "Alucard",
+      "path": "https://d17lbu6bbzbdc8.cloudfront.net/wp-content/uploads/2021/12/06092751/Castlevania-Symphony-of-the-Night.jpg",
+      "categorie": [
+        "Personagem",
+        "Jogos Digitais"
+      ],
+      "apiId": "@",
+      "id": 5
+    },
+    {
+      "name": "Zero - Yung Buda",
+      "path": "https://cdns-images.dzcdn.net/images/cover/8de8e23845b10a07a23c550ae37092b0/500x500.jpg",
+      "categorie": [
+        "Disco",
+        "Música"
+      ],
+      "id": 6
+    }
+  ],
+  "categories": [
+    "Personagem",
+    "HQ",
+    "Música",
+    "LOL",
+    "Livro",
+    "Disco",
+    "Personalidade",
+    "Paisagem",
+    "Arte",
+    "Jogos Digitais"
+  ]
 }
