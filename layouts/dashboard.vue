@@ -64,7 +64,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'Página para controlar o projeto base',
+          content: 'Página para controlar os conteudos da DataBase',
         },
       ],
     }
