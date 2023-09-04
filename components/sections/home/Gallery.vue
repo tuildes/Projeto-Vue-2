@@ -19,7 +19,7 @@
     <!--Linha inferior, apenas imagens-->
     <v-row class="gallery-imageBox justify-center">
       <v-col
-        v-for="(img, index) in galleryImgs"
+        v-for="(img, index) in galleryimgs"
         :key="index"
         cols="12"
         lg="4"
@@ -38,7 +38,7 @@
 <script>
 export default {
   props: {
-    galleryImgs: {
+    galleryimgs: {
       type: Array,
       required: true,
     },

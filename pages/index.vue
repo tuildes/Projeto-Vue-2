@@ -2,11 +2,9 @@
   <v-container fluid class="pa-0 ma-0">
     <!--Fluid: usar todo o espaco do navegador-->
     <Banner />
-    <v-divider />
-    <Gallery :galleryImgs="galleryRes" />
-    <v-divider />
+    <WorkTypes />
+    <Gallery :galleryimgs="galleryRes" />
     <Testimony :testimonies="testimonyRes" />
-    <v-divider />
   </v-container>
 </template>
 
@@ -14,12 +12,14 @@
 import Gallery from '../components/sections/home/Gallery.vue'
 import Banner from '../components/sections/home/Banner.vue'
 import Testimony from '../components/sections/home/Testimony.vue'
+import WorkTypes from '../components/sections/home/WorkTypes.vue'
 
 export default {
   components: {
     Gallery,
     Banner,
     Testimony,
+    WorkTypes,
   },
 
   async asyncData({ $axios }) {

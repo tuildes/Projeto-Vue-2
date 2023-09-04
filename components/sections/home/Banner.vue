@@ -40,7 +40,7 @@ export default {
 <style scoped>
 @import url('http://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-@media (max-width: 600px) {
+@media (max-width: 961px) {
   .banner-content {
     top: 6% !important;
   }
@@ -53,7 +53,7 @@ export default {
   }
 }
 
-@media (min-width: 601px) and (max-width: 1263px) {
+@media (min-width: 962px) and (max-width: 1263px) {
   .banner-image {
     height: 1000px !important;
   }
