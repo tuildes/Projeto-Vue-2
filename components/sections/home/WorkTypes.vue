@@ -40,7 +40,7 @@ export default {
           icon: 'mdi-eye-circle-outline',
         },
         {
-          name: 'Responsividade completa',
+          name: 'Responsividade',
           text:
             "Gear 5 is the awakened form of the Gomu Gomu no Mi, which strengthens the user's rubbery body.",
           icon: 'mdi-palette-swatch',
@@ -81,6 +81,7 @@ export default {
   font-size: 20px;
   text-transform: uppercase;
   color: #5d5d5d;
+  text-align: center;
 }
 
 .worktype-description {

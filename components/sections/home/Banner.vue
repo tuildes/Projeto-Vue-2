@@ -74,7 +74,7 @@ export default {
 .banner-content {
   width: 100vw;
   position: absolute;
-  top: 12%;
+  top: 7%;
 }
 
 .banner-title {

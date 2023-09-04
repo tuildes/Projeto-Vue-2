@@ -24,6 +24,11 @@
       <div class="btn-entrar" @click="realizarLogin">
         Entrar
       </div>
+      <div class="d-flex justify-center">
+        <nuxt-link class="btn-voltar" to="/">
+          Voltar para a Home
+        </nuxt-link>
+      </div>
     </div>
   </v-container>
 </template>
@@ -122,5 +127,19 @@ export default {
 
 .btn-entrar:hover {
   color: rgb(47, 151, 116);
+}
+
+.btn-voltar {
+  color: rgb(34, 34, 34);
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn-voltar:hover {
+  color: rgb(88, 88, 88);
 }
 </style>

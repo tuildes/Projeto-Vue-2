@@ -1,20 +1,6 @@
 {
   "testimony": [
     {
-      "id": 0,
-      "nome": "Jean Doe",
-      "ocupacao": "Twitter",
-      "frase": "“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.“",
-      "image_url": "https://demos.freehtml5.co/greatness/images/person_1.jpg"
-    },
-    {
-      "id": 1,
-      "nome": "John Doe",
-      "ocupacao": "Twitter",
-      "frase": "“Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”",
-      "image_url": "https://demos.freehtml5.co/greatness/images/person_3.jpg"
-    },
-    {
       "id": 2,
       "nome": "Teemo",
       "ocupacao": "LOL",
@@ -39,14 +25,14 @@
       "id": 5,
       "nome": "Mai",
       "ocupacao": "Anime",
-      "frase": "“Em Bunny Girl, acompanhamos Sakuta Azusagawa, um colegial que adora ironia e tem um olhar meio morto para vida. Sakuta vive resolvendo os problemas de garotas que sofrem com a Síndrome da Adolescência. Garotas estas que vão caindo no seu colo a medida que os episódios vão se passando.”",
+      "frase": "“Em Bunny Girl, acompanhamos Sakuta Azusagawa, um colegial que adora ironia e tem um olhar meio morto para vida. Sakuta vive resolvendo os problemas de garotas que sofrem com a Síndrome da Adolescência.”",
       "image_url": "https://64.media.tumblr.com/805681b4d3ad9ff8a18d00db94d752e6/tumblr_po9u5p7Pfb1u1ycqw_400.jpg"
     },
     {
       "id": 6,
       "nome": "Zin",
       "ocupacao": "Grana Azul",
-      "frase": "“O artista de Curitiba colocou seu nome no underground de forma definitiva e sólida, e com grandes e plausíveis pretensões de alçar voos maiores. Tudo isso culminou para a criação de uma expectativa para o lançamento do que seria seu trampo definitivo, o álbum “Grana Azul“, lançado no último dia 31.”",
+      "frase": "“O artista de Curitiba colocou seu nome no underground de forma definitiva e sólida, e com grandes e plausíveis pretensões de alçar voos maiores. O lançamento do que seria seu trampo definitivo, o álbum “Grana Azul“.”",
       "image_url": "https://i1.sndcdn.com/avatars-000648566526-gwbcqw-t500x500.jpg"
     }
   ],
@@ -56,17 +42,12 @@
       "apiId": "@",
       "name": "Gwen Stacy",
       "path": "https://editors.dexerto.com/wp-content/uploads/2023/06/06/Ghost-Spider-decks-Marvel-Snap.jpg",
-      "categorie": [
-        "Personagem",
-        "HQ"
-      ]
+      "categorie": ["Personagem", "HQ"]
     },
     {
       "name": "Álbum Pêndulo - Menestrel",
       "path": "https://images.genius.com/e28852b5de97ab8cd608557a3d6c6d1e.1000x1000x1.jpg",
-      "categorie": [
-        "Música"
-      ],
+      "categorie": ["Música"],
       "apiId": "@",
       "id": 1
     },
@@ -75,28 +56,19 @@
       "apiId": "@",
       "name": "Zeri",
       "path": "https://images7.alphacoders.com/120/1202659.jpg",
-      "categorie": [
-        "Personagem",
-        "LOL"
-      ]
+      "categorie": ["Personagem", "LOL"]
     },
     {
       "name": "Inferno do CS2",
       "path": "https://noticias.maisesports.com.br/wp-content/uploads/2023/06/cs-2-inferno-4.jpg",
-      "categorie": [
-        "Paisagem",
-        "Jogos Digitais"
-      ],
+      "categorie": ["Paisagem", "Jogos Digitais"],
       "apiId": "@",
       "id": 4
     },
     {
       "name": "Castlevania SOTN",
       "path": "https://warpzone.me/wp-content/uploads/2019/01/conceptGraveyard.png",
-      "categorie": [
-        "Personagem",
-        "Jogos Digitais"
-      ],
+      "categorie": ["Personagem", "Jogos Digitais"],
       "apiId": "@",
       "id": 5
     }

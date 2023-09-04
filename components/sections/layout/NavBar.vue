@@ -114,6 +114,7 @@ export default {
     return {
       drawerOpen: false,
       navbarItems: [
+        { link: '/dashboard', label: 'Dashboard', menu: false },
         { link: '#', label: 'Home', menu: false },
         { link: '#', label: 'Sobre', menu: false },
         {
