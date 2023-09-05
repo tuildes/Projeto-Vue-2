@@ -8,7 +8,6 @@
       class="banner-image"
       :src="BannerImage"
     />
-
     <div class="banner-content d-flex justify-center align-center flex-column">
       <span class="banner-title">Eles queriam que eu vivesse</span>
       <span class="banner-subtitle">Imortal é ter que carregar isso</span>
@@ -40,9 +39,9 @@ export default {
 <style scoped>
 @import url('http://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-@media (max-width: 961px) {
+@media (max-width: 600px) {
   .banner-content {
-    top: 6% !important;
+    top: 4% !important;
   }
 
   .banner-image {
@@ -53,12 +52,12 @@ export default {
   }
 }
 
-@media (min-width: 962px) and (max-width: 1263px) {
+@media (min-width: 601px) and (max-width: 1263px) {
   .banner-image {
     height: 1000px !important;
   }
   .banner-content {
-    top: 10% !important;
+    top: 5% !important;
   }
 
   .banner-title {
@@ -74,7 +73,7 @@ export default {
 .banner-content {
   width: 100vw;
   position: absolute;
-  top: 7%;
+  top: 6%;
 }
 
 .banner-title {

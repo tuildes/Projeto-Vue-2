@@ -6,6 +6,7 @@
     <Gallery :galleryimgs="galleryRes" />
     <Historic />
     <Testimony :testimonies="testimonyRes" />
+    <WeOffer />
   </v-container>
 </template>
 
@@ -15,6 +16,7 @@ import Banner from '../components/sections/home/Banner.vue'
 import Testimony from '../components/sections/home/Testimony.vue'
 import WorkTypes from '../components/sections/home/WorkTypes.vue'
 import Historic from '../components/sections/home/Historic.vue'
+import WeOffer from '../components/sections/home/WeOffer.vue'
 
 export default {
   components: {
@@ -23,6 +25,7 @@ export default {
     Testimony,
     WorkTypes,
     Historic,
+    WeOffer,
   },
 
   async asyncData({ $axios }) {

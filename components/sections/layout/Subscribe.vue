@@ -5,7 +5,7 @@
     >
       <span class="subscribe-title">Subscribe</span>
       <span class="subscribe-description"
-        >Be the first to know about the new templates.</span
+        >Seja o primeiro a saber dos meus trabalhos.</span
       >
       <form
         class="subscribe-button-section d-flex justify-center flex-column flex-md-row"
@@ -64,6 +64,7 @@ export default {}
   font-size: 18px;
   line-height: 1.5;
   color: #828282;
+  text-align: center;
 }
 
 .subscribe-button-section {
