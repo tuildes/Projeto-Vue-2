@@ -3,7 +3,8 @@
     <NavBar />
     <!--Renderizacao antes dos outros itens-->
     <nuxt class="nuxt" />
-    <!--Rendereizao depois dos outros itens-->
+    <!--Renderizaçao depois dos outros itens-->
+    <Subscribe />
     <VFooter />
     <GoBackButton />
   </v-app>
@@ -13,6 +14,7 @@
 
 <script>
 import NavBar from '../components/sections/layout/NavBar.vue'
+import Subscribe from '../components/sections/layout/Subscribe.vue'
 import VFooter from '../components/sections/layout/VFooter.vue'
 import GoBackButton from '../components/sections/layout/GoBackButton.vue'
 export default {
@@ -20,6 +22,7 @@ export default {
     VFooter,
     GoBackButton,
     NavBar,
+    Subscribe,
   },
   data() {
     return {}
