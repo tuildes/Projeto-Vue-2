@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="coluna-usuario">
     <title-auth titulo="Registro" />
     <input-auth v-model="name" placeholder="Nome" />
     <input-auth v-model="email" placeholder="Email" />
@@ -10,8 +10,10 @@
       type="password"
     />
 
-    <div @click="realizarRegistro">
-      Registrar
+    <div class="d-flex justify-center mt-8">
+      <v-btn class="registro-btn" @click="realizarRegistro">
+        Registrar
+      </v-btn>
     </div>
   </div>
 </template>
@@ -98,4 +100,12 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.coluna-usuario {
+  padding: 20px 40px 40px 40px;
+}
+
+.registro-btn {
+  cursor: pointer;
+}
+</style>

@@ -24,7 +24,10 @@
       <div class="btn-entrar" @click="realizarLogin">
         Entrar
       </div>
-      <div class="d-flex justify-center">
+      <div class="d-flex justify-center flex-column">
+        <nuxt-link class="btn-voltar" to="/registro">
+          Registrar
+        </nuxt-link>
         <nuxt-link class="btn-voltar" to="/">
           Voltar para a Home
         </nuxt-link>
