@@ -41,7 +41,7 @@
                   />
                 </v-col>
                 <v-col cols="12" lg="6">
-                  <h1 class="we-offer-title text-center text-lg-start">
+                  <h1 class="we-offer-ttl text-center text-lg-start">
                     Web Design
                   </h1>
                   <p class="we-offer-paragraph">
@@ -89,7 +89,7 @@
             <v-card-text>
               <v-row style="margin-top: 10px;">
                 <v-col cols="12" lg="6">
-                  <h1 class="we-offer-title text-center text-lg-start">
+                  <h1 class="we-offer-ttl text-center text-lg-start">
                     Online Marketing
                   </h1>
                   <p class="we-offer-paragraph">
@@ -151,7 +151,7 @@
                   />
                 </v-col>
                 <v-col cols="12" lg="6">
-                  <h1 class="we-offer-title text-center text-lg-start">
+                  <h1 class="we-offer-ttl text-center text-lg-start">
                     E-Commerce
                   </h1>
                   <p class="we-offer-paragraph">
@@ -199,7 +199,7 @@
             <v-card-text>
               <v-row style="margin-top: 10px;">
                 <v-col cols="12" lg="6">
-                  <h1 class="we-offer-title text-center text-lg-start">
+                  <h1 class="we-offer-ttl text-center text-lg-start">
                     Logo & Branding
                   </h1>
                   <p class="we-offer-paragraph">
@@ -295,7 +295,7 @@ export default {
   font-size: 36px;
   line-height: 1.5;
   font-weight: bold;
-  color: #000;
+  color: #000000a4;
   text-align: center;
 
   margin-top: 80px;
@@ -339,8 +339,8 @@ export default {
   height: 500px;
 }
 
-.we-offer-title {
-  margin-top: 0px;
+.we-offer-ttl {
+  margin-top: 40px;
   color: rgba(0, 0, 0, 0.6);
   font-size: 40px;
 }
@@ -352,6 +352,6 @@ export default {
   color: #828282;
   text-align: justify;
 
-  margin-top: 25px;
+  margin-top: 30px;
 }
 </style>

@@ -115,7 +115,7 @@ export default {
       drawerOpen: false,
       navbarItems: [
         { link: '/dashboard', label: 'Dashboard', menu: false },
-        { link: '#', label: 'Home', menu: false },
+        { link: '/', label: 'Home', menu: false },
         { link: '#', label: 'Sobre', menu: false },
         {
           link: '#',
@@ -129,7 +129,7 @@ export default {
           menu: true,
           items: ['HTML5', 'CSS3', 'Sass', 'JQuery'],
         },
-        { link: '#', label: 'Contato', menu: false },
+        { link: '/contact', label: 'Contato', menu: false },
       ],
     }
   },
