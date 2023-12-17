@@ -1,4 +1,6 @@
-# projeto-base-vue-2020
+# Projeto de Capacitação em Vue2
+
+Feito com Vue2, Vuetify2, Nuxt2 e json-server
 
 ## Build Setup
 
@@ -17,4 +19,7 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+```bash
+# run json-server
+$ json-server -w -p 8000 db.json
+```
