@@ -1,6 +1,7 @@
 # Projeto de Capacitação em Vue2
 
-Feito com Vue2, Vuetify2, Nuxt2 e json-server
+Feito com **Vue2**, **Vuetify2**, **Nuxt2** e **json-server**
+**Node 16**
 
 ## Build Setup
 
@@ -10,13 +11,6 @@ $ npm install
 
 # serve with hot reload at localhost:3000
 $ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
 ```
 
 ```bash
