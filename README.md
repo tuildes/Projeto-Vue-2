@@ -1,19 +1,32 @@
-# Projeto de Capacitação em Vue2
+# Projeto de capacitação de Front-End
 
-Feito com **Vue2**, **Vuetify2**, **Nuxt2** e **json-server**
-**Node 16**
+## Descrição
 
-## Build Setup
+> "_Agenda telefônica feita em C_"
 
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-```
+## Rodando a aplicação
 
 ```bash
-# run json-server
-$ json-server -w -p 8000 db.json
+# Colocar a versão do node certa (NVM)
+nvm use 16;
+
+# Instalar pacotes e depedências do projeto:
+npm install;
+
+# Rodar o projeto
+npm run dev
+
+# Rodar o back-end simulado (json-server)
+json-server -w -p 8000 db.json
 ```
+
+## Demonstração da aplicação
+
+## Infos
+
+* **Tecnologias**: `Vue2`, `Vuetify2`, `Nuxt2`, `json-server`
+* **Data**: 10/09/2023
+
+---
+
+![dads](banner.png)
