@@ -14,13 +14,19 @@ nvm use 16;
 npm install;
 
 # Rodar o projeto
-npm run dev
+npm run dev;
 
 # Rodar o back-end simulado (json-server)
-json-server -w -p 8000 db.json
+json-server -w -p 8000 db.json;
 ```
 
 ## Demonstração da aplicação
+
+Home:
+![Página inicial do Projeto]()
+Contato:
+
+Dashboard:
 
 ## Infos
 
@@ -29,4 +35,4 @@ json-server -w -p 8000 db.json
 
 ---
 
-![dads](banner.png)
+![Banner escrito TUILDES com a Mai Sakurajima em cada lado](banner.png)
