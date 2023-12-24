@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app style="overflow-x: hidden;">
     <NavBar />
     <!--Renderizacao antes dos outros itens-->
     <nuxt class="nuxt" />
