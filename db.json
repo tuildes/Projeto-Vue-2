@@ -42,12 +42,17 @@
       "apiId": "@",
       "name": "Gwen Stacy",
       "path": "https://editors.dexerto.com/wp-content/uploads/2023/06/06/Ghost-Spider-decks-Marvel-Snap.jpg",
-      "categorie": ["Personagem", "HQ"]
+      "categorie": [
+        "Personagem",
+        "HQ"
+      ]
     },
     {
       "name": "Álbum Pêndulo - Menestrel",
       "path": "https://images.genius.com/e28852b5de97ab8cd608557a3d6c6d1e.1000x1000x1.jpg",
-      "categorie": ["Música"],
+      "categorie": [
+        "Música"
+      ],
       "apiId": "@",
       "id": 1
     },
@@ -56,21 +61,20 @@
       "apiId": "@",
       "name": "Zeri",
       "path": "https://images7.alphacoders.com/120/1202659.jpg",
-      "categorie": ["Personagem", "LOL"]
+      "categorie": [
+        "Personagem",
+        "LOL"
+      ]
     },
     {
       "name": "Inferno do CS2",
       "path": "https://noticias.maisesports.com.br/wp-content/uploads/2023/06/cs-2-inferno-4.jpg",
-      "categorie": ["Paisagem", "Jogos Digitais"],
+      "categorie": [
+        "Paisagem",
+        "Jogos Digitais"
+      ],
       "apiId": "@",
       "id": 4
-    },
-    {
-      "name": "Castlevania SOTN",
-      "path": "https://warpzone.me/wp-content/uploads/2019/01/conceptGraveyard.png",
-      "categorie": ["Personagem", "Jogos Digitais"],
-      "apiId": "@",
-      "id": 5
     }
   ],
   "categories": [
