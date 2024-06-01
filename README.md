@@ -23,19 +23,15 @@ json-server -w -p 8000 db.json;
 ## Demonstração da aplicação
 
 - Home (computador):
-  ![Página inicial do Projeto PC](github-assets/home-pc.png)
+  ![Página inicial do Projeto PC](.github/home-pc.png)
 - Home (mobile):
-  ![Página inicial do Projeto MOBILE](github-assets/home-mobile.png)
+  ![Página inicial do Projeto MOBILE](.github/home-mobile.png)
 - Contato:
-  ![Página de contato do Projeto](github-assets/contato.png)
+  ![Página de contato do Projeto](.github/contato.png)
 - Dashboard:
-  ![Dashboard do Projeto](github-assets/dashboard.png)
+  ![Dashboard do Projeto](.github/dashboard.png)
 
 ## Infos
 
 - **Tecnologias**: `Vue2`, `Vuetify2`, `Nuxt2`, `json-server`
 - **Data**: 10/09/2023
-
----
-
-![Banner escrito TUILDES com a Mai Sakurajima em cada lado](github-assets/banner.png)
