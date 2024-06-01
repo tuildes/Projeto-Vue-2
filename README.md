@@ -56,3 +56,5 @@
   ![Página de contato do Projeto](.github/contato.png)
 - Dashboard:
   ![Dashboard do Projeto](.github/dashboard.png)
+
+[^1]: **Empresa Júnior** de Informática da UFPR - ECOMP. Site: https://ecomp.co/
