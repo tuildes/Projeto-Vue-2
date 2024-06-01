@@ -1,24 +1,50 @@
-# Projeto de capacitação de Front-End
+# Landing Page GREATNESS
 
-## Descrição
+> [!NOTE]
+> Landing Page feito em `Vue 2` e `Nuxt.js` baseado em um layout greatness. Feito como projeto de fixação e capacitação do @tuildes na linguagem na Ecomp [^1]. Sendo totalmente responsiva, contando também com uma dashboard para edição de certos conteúdos dinâmicos da página.
 
-> "_Projeto de capacitação de um site de Front-End, que é totalmente responsiva, e com uma seção dashboard para edição de certos conteúdos dinâmicos_"
+## ☕ Info
 
-## Rodando a aplicação
+- **Layout**: https://demos.freehtml5.co/greatness/index.html
+- **Data**: 10/09/2023
+- **Linguagem**: `Vue.js 2`, `Vuetify`, `Nuxt`, `json-server`
 
-```bash
-# Colocar a versão do node certa (NVM)
-nvm use 16;
+## 🐛 Comandos
 
-# Instalar pacotes e depedências do projeto:
-npm install;
+  ```bash
+  # Colocar a versão do node certa (NVM)
+  nvm use 16;
 
-# Rodar o projeto
-npm run dev;
+  # Instalar pacotes e depedências do projeto:
+  npm install;
 
-# Rodar o back-end simulado (json-server)
-json-server -w -p 8000 db.json;
-```
+  # Rodar o projeto
+  npm run dev;
+
+  # Rodar o back-end simulado (json-server)
+  json-server -w -p 8000 db.json;
+  ```
+
+## 🚀 Arquivos
+
+    .
+    ├── .github                  # Pasta com imagens do README
+    ├── assets                   # Pasta com arquivos de build, como css
+    ├── components               # Pasta com componentes reutilizáveis (.vue)
+    ├── layouts                  # Pasta com layout da aplicação (.vue)
+    ├── middleware               # Pasta com middlewares (.js)
+    ├── pages                    # Pasta com as páginas e roteamento (.vue)
+    ├── static                   # Pasta com imagens estáticas do projeto
+    ├── store                    # Pasta que controla a STORE VueX (.js)
+    |
+    ├── .prettierrc              # Configuração do prettier
+    ├── .eslintrc,js             # Configuração do eslint
+    ├── db.json                  # Database usada pelo json-server
+    ├── jsconfig.json            
+    ├── nuxt.config.js           # Configuração do funcionamento da aplicação
+    ├── package.json             # Pacotes do proejto
+    |
+    └── README.md     
 
 ## Demonstração da aplicação
 
@@ -30,8 +56,3 @@ json-server -w -p 8000 db.json;
   ![Página de contato do Projeto](.github/contato.png)
 - Dashboard:
   ![Dashboard do Projeto](.github/dashboard.png)
-
-## Infos
-
-- **Tecnologias**: `Vue2`, `Vuetify2`, `Nuxt2`, `json-server`
-- **Data**: 10/09/2023
